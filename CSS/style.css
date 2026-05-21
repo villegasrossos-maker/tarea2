@@ -1,0 +1,189 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b0e0e;
+    color: #333;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.title {
+    padding: 30px;
+    border-radius: 15px;
+    color: #020201;
+    background-color: #04033b;
+    border: 5px solid #ffe604;
+}
+
+h1 {
+    text-align: center;
+    color: #ffa238;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    color: #fc5f17;
+}
+
+#Temperatura,
+#Convinaciones {
+    padding: 30px;
+    border-radius: 15px;
+    color: #020201;
+    background-color: #04033b;
+    border: 5px solid #ffe604;
+
+}
+
+button {
+    border-radius: 15px;
+    color: #27005a;
+    background-color: #afadff;
+    border: 5px solid hsl(51, 95%, 46%);
+    padding: 10px 15px;
+
+}
+
+button:hover {
+    background-color: #00ff15;
+}
+
+div>button {
+    border-color: 5px solid #ffe604;
+    margin-right: 10px;
+    font-style: #fff;
+    background-color: #020161;
+}
+
+div>button:hover {
+    background-color: #95a5a6;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #c3beff;
+}
+
+input {
+    width: 90%;
+    height: 40px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+#Respuesta,
+#Respuesta22 {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f4f8;
+    border-left: 5px solid #2086ca;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #161515;
+        color: #333;
+        max-width: 600px;
+        margin: 40px auto;
+        padding: 20px;
+    }
+
+    .title {
+        padding: 30px;
+        border-radius: 15px;
+        color: #020201;
+        background-color: #04033b;
+        border: 5px solid #181818;
+    }
+
+    h1 {
+        text-align: center;
+        color: #ff0000;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    h3 {
+        text-align: center;
+        color: #fc5f17;
+    }
+
+    #Temperatura,
+    #Convinaciones {
+        padding: 30px;
+        border-radius: 15px;
+        color: #363636;
+        background-color: #04033b;
+        border: 5px solid #505050;
+
+    }
+
+    button {
+        border-radius: 15px;
+        color: #2c2c2c;
+        background-color: #424242;
+        border: 5px solid hsl(0, 0%, 0%);
+        padding: 10px 15px;
+
+    }
+
+    button:hover {
+        background-color: #ff1100;
+    }
+
+    div>button {
+        border-color: 5px solid #1d1d1d;
+        margin-right: 10px;
+        font-style: #ff0000;
+        background-color: #030303;
+    }
+
+    div>button:hover {
+        background-color: #242424;
+    }
+
+    label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+        color: #000000;
+    }
+
+    input {
+        width: 90%;
+        height: 40px;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #1d1d1d;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    input:focus {
+        border-color: #2c2c2c;
+        outline: none;
+    }
+
+    #Respuesta,
+    #Respuesta22 {
+        margin-top: 20px;
+        padding: 15px;
+        background-color: #3b3b3b;
+        border-left: 5px solid #2086ca;
+        font-size: 18px;
+        border-radius: 4px;
+    }
+}

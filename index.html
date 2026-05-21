@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simuladores Interactivos</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        #Temperatura{
+            display: block;
+        }
+        #Convinaciones{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>Simuladores Interactivos</h1>
+    </div>
+    
+    <div>
+        <button type="button" onclick="cambia2()">Transferencia de <br>calor</button>
+        <button type="button" onclick="cambia1()">Calculadora de <br>combinaciones</button>
+    </div>
+    
+    <div id="Temperatura">
+        <form>
+            <h3>Simulador de transferencia de calor</h3>
+            
+            <label for="">Temperatura Inicial:</label><br>
+            <input type="number" id="To"><br><br>
+            
+            <label for="">Temperatura de entorno:</label><br>
+            <input type="number" id="Ts"><br><br>
+            
+            <label for="">Constante de enfriamiento:</label><br>
+            <input type="number" step="any" id="K"><br><br>
+            
+            <label for="Tiempo">Tiempo en horas:</label><br>
+            <input type="number" id="Tiempo"><br><br>
+            
+            <button type="button" onclick="form1()">Respuesta</button><br><br>
+            
+            <div id="Respuesta">
+                La Respuesta es: 
+            </div>
+        </form>
+    </div><br>
+
+    <div id="Convinaciones">
+        <form>
+            <h3>Calculador de combinaciones complejas </h3>
+
+           <label for="">Grupo 1</label><br>
+
+           <label for="">---Numero 1---</label>
+           <input type="number" min="1" id="n1">
+           <label for="">---Numero 2---</label>
+           <input type="number" min="1" id="r1"><br>
+
+
+           <label for="">Grupo 2</label><br>
+           <label for="">---Numero 1---</label>
+           <input type="number" min="1" id="n2">
+           <label for="">---Numero 2---</label>
+           <input type="number" min="1" id="r2"><br>
+
+           <button type="button" onclick="form2()">Respuesta</button><br><br>
+            
+            <div id="Respuesta22">
+                La Respuesta es: 
+            </div>
+        </form>
+
+    </div>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>
